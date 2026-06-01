@@ -1,0 +1,304 @@
+/* ==========================
+   GLOBAL
+========================== */
+
+body{
+    font-family:'Segoe UI',sans-serif;
+
+    background:
+    linear-gradient(
+        rgba(255,255,255,0.35),
+        rgba(255,255,255,0.35)
+    ),
+    url('/images/office-bg.jpg');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+    min-height:100vh;
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+
+.dashboard-header{
+    background:linear-gradient(
+        135deg,
+        #4f6df5,
+        #7b4bc4
+    );
+
+    padding:15px 0;
+
+    box-shadow:0 4px 20px rgba(0,0,0,0.15);
+}
+
+.navbar-brand{
+    color:white !important;
+    font-weight:700;
+    font-size:24px;
+}
+
+.welcome-text{
+    color:white;
+    font-size:18px;
+}
+
+/* ==========================
+   HERO BANNER
+========================== */
+
+.banner{
+    background:linear-gradient(
+        135deg,
+        #5f7cff,
+        #7c4dff
+    );
+
+    color:white;
+
+    text-align:center;
+
+    padding:60px 30px;
+
+    border-radius:25px;
+
+    margin-top:30px;
+    margin-bottom:35px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.banner h1{
+    font-size:52px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.banner p{
+    font-size:20px;
+    opacity:0.95;
+    margin-bottom:20px;
+}
+
+.tech-badge{
+    display:inline-block;
+
+    background:white;
+
+    color:#333;
+
+    padding:8px 14px;
+
+    border-radius:10px;
+
+    margin:5px;
+
+    font-size:14px;
+
+    font-weight:600;
+}
+
+/* ==========================
+   DASHBOARD CARDS
+========================== */
+
+.dashboard-card{
+    border:none;
+    border-radius:20px;
+
+    color:#222;
+
+    background:rgba(255,255,255,0.88);
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.15);
+
+    transition:0.3s;
+}
+
+    text-align:center;
+
+    padding:25px;
+
+    transition:0.3s;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.15);
+}
+
+.dashboard-card:hover{
+    transform:translateY(-8px);
+}
+
+.card-blue{
+    background:linear-gradient(135deg,#2196f3,#1976d2);
+}
+
+.card-green{
+    background:linear-gradient(135deg,#00c853,#009624);
+}
+
+.card-orange{
+    background:linear-gradient(135deg,#ff9800,#ef6c00);
+}
+
+.card-purple{
+    background:linear-gradient(135deg,#9c27b0,#6a1b9a);
+}
+
+.dashboard-card h5{
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.dashboard-card h2{
+    font-size:38px;
+    font-weight:bold;
+}
+
+/* ==========================
+   GLASS CARDS
+========================== */
+
+.card{
+    background:rgba(255,255,255,0.85);
+
+    backdrop-filter:blur(12px);
+
+    border:none;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* ==========================
+   FORM
+========================== */
+
+.form-control{
+    border-radius:12px;
+
+    padding:12px;
+
+    border:1px solid #ddd;
+}
+
+.form-control:focus{
+    border-color:#5f7cff;
+
+    box-shadow:0 0 10px rgba(95,124,255,0.25);
+}
+
+.btn-primary{
+    background:#5f7cff;
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:10px 20px;
+
+    font-weight:600;
+}
+
+.btn-primary:hover{
+    background:#4967f0;
+}
+
+.btn-danger{
+    border-radius:8px;
+}
+
+/* ==========================
+   TABLE
+========================== */
+
+.table{
+    background:rgba(255,255,255,0.95);
+
+    border-radius:15px;
+
+    overflow:hidden;
+}
+
+.table thead{
+    background:#212529;
+    color:white;
+}
+
+.table th{
+    padding:15px;
+}
+
+.table td{
+    padding:15px;
+    vertical-align:middle;
+}
+
+.table tbody tr:hover{
+    background:#f5f7ff;
+}
+
+/* ==========================
+   BADGES
+========================== */
+
+.badge{
+    padding:8px 12px;
+    font-size:13px;
+    border-radius:8px;
+}
+
+/* ==========================
+   SECTION TITLES
+========================== */
+
+.section-title{
+    font-weight:700;
+    margin-bottom:20px;
+    color:#222;
+}
+
+/* ==========================
+   SEARCH BAR
+========================== */
+
+.search-box{
+    border-radius:12px;
+}
+
+/* ==========================
+   FOOTER SPACE
+========================== */
+
+.container{
+    padding-bottom:40px;
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media(max-width:768px){
+
+    .banner{
+        padding:35px 20px;
+    }
+
+    .banner h1{
+        font-size:32px;
+    }
+
+    .banner p{
+        font-size:16px;
+    }
+
+    .dashboard-card{
+        margin-bottom:15px;
+    }
+}
